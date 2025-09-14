@@ -1,0 +1,155 @@
+/*IMPORT FONTE EB GARAMOND*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+/* HEADER */
+
+header{
+    border-top: 7.5px solid #d9ab5b;
+}
+
+.conteudo-header{
+    font-family: "EB Garamond", serif;
+    background-color: #b95a47;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 0px;
+
+}
+
+.logo-header img{
+    width: 75%;
+    justify-content: left;
+}
+
+.menu-header a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #132b37;
+    margin: 20px;
+    
+}
+
+.menu-header a:hover{
+    color: #d9ab5b;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+main{
+    font-family: "EB Garamond", serif;    
+    background-color: #132b37;
+    color: #fdf9e4;
+}
+
+.banner-cardapio img{
+    image-rendering: auto;
+    width: 100%;
+}
+
+.tabela-cardapio table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cardapio-titulos{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.tabela-cardapio td{
+    vertical-align: middle;
+}
+
+.produto-tabela p{
+    padding-top: auto;    
+    line-height: 1;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.tabela-cardapio th,td{
+    border: 1px solid #d9ab5b;
+    padding: 10px 30px;
+    text-align: center;    
+}
+
+.tabela-cardapio img{
+    width: 200px;
+    border-radius: 5%;
+}
+
+.sugestao-chefe h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sugestao-chefe ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-align: center;    
+    padding-right: 50px; 
+}
+
+.sugestao-chefe li{
+    padding-bottom: 10px;
+}
+
+.sugestao-chefe h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.sugestao-chefe ol{
+    font-size: 1.25em;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: "EB Garamond", serif;    
+    background-color: #b95a47;
+    border-top: 7.5px solid #d9ab5b;
+    border-bottom: 7.5px solid #d9ab5b;
+}
+
+.conteudo-footer{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direitos-footer p{
+    font-weight: bold;
+}
+
+.logo-footer img{
+    width: 50px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: #132b37;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.menu-footer a:hover{
+    color: #d9ab5b;
+    text-decoration: underline;
+}
+
+.sociais-footer img{
+    width: 25px;
+    margin: 2px;
+}
+

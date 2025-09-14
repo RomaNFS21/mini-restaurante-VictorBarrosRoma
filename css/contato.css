@@ -1,0 +1,175 @@
+/*IMPORT FONTE EB GARAMOND*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+/* HEADER */
+
+header{
+    border-top: 7.5px solid #d9ab5b;
+}
+
+.conteudo-header{
+    font-family: "EB Garamond", serif;
+    background-color: #b95a47;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 0px;
+
+}
+
+.logo-header img{
+    width: 75%;
+    justify-content: left;
+}
+
+.menu-header a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #132b37;
+    margin: 20px;
+    
+}
+
+.menu-header a:hover{
+    color: #d9ab5b;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+main{
+    font-family: "EB Garamond", serif;
+    background-color: #132b37;
+    color: #fdf9e4;
+}
+
+.banner-contato img{
+    image-rendering: auto;
+    width: 100%;
+}
+
+.primeira-parte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.horario-funcionamento h1{
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.horario-funcionamento{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+.formas-contato h1{
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.formas-contato{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.25em;
+    line-height: 1.25;
+}
+
+.formas-contato ul{
+    list-style-type: none;
+}
+
+.localizaçao-contato{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localizaçao-contato iframe{
+    padding: 20px 30px;
+    width: 1500px;
+    height: 350px;
+}
+
+.segunda-parte h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.segunda-parte{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda-parte li{
+    font-size: 1.25em;
+    line-height: 1.25;
+}
+
+.cupom-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px; 
+}
+
+
+/* FOOTER */
+
+footer{
+    font-family: "EB Garamond", serif;
+    background-color: #b95a47;
+    border-top: 7.5px solid #d9ab5b;
+    border-bottom: 7.5px solid #d9ab5b;
+}
+
+.conteudo-footer{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direitos-footer p{
+    font-weight: bold;
+}
+
+.logo-footer img{
+    width: 50px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: #132b37;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.menu-footer a:hover{
+    color: #d9ab5b;
+    text-decoration: underline;
+}
+
+.sociais-footer img{
+    width: 25px;
+    margin: 2px;
+}

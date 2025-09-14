@@ -1,0 +1,132 @@
+/*IMPORT FONTE EB GARAMOND*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+/* HEADER */
+
+header{
+    border-top: 7.5px solid #d9ab5b;
+}
+
+.conteudo-header{
+    font-family: "EB Garamond", serif;
+    background-color: #b95a47;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 0px;
+
+}
+
+.logo-header img{
+    width: 75%;
+    justify-content: left;
+}
+
+.menu-header a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #132b37;
+    margin: 20px;  
+}
+
+.menu-header a:hover{
+    color: #d9ab5b;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+main{
+    font-family: "EB Garamond", serif;    
+    background-color: #132b37;
+    text-align: center;
+    display: flex;
+    color: #fdf9e4;
+    padding-bottom: 30px;
+}
+
+main h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.banner-main img{
+    image-rendering: auto;
+    width: 100%;
+}
+
+.titulo-sobre{
+    padding: 30px 0px;
+
+}
+
+.paragrafo-sobre{
+    padding: 0px 30px;
+    line-height: 1;
+    font-size: 1.5em;
+}
+
+.paragrafo-sobre p{
+    padding: 20px 0px;
+}
+
+.diferenciais-titulo h1{
+    padding: 30px 0px;
+}
+
+.diferenciais-topicos li{
+    padding-bottom: 10px;
+    padding-right: 50px;
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #fdf9e4;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: "EB Garamond", serif;    
+    background-color: #b95a47;
+    border-top: 7.5px solid #d9ab5b;
+    border-bottom: 7.5px solid #d9ab5b;
+}
+
+.conteudo-footer{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direitos-footer p{
+    font-weight: bold;
+}
+
+.logo-footer img{
+    width: 50px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: #132b37;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.menu-footer a:hover{
+    color: #d9ab5b;
+    text-decoration: underline;
+}
+
+.sociais-footer img{
+    width: 25px;
+    margin: 2px;
+}
+
